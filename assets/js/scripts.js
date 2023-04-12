@@ -56,3 +56,23 @@
 })(jQuery); // End of use strict
 
 
+    // resume pdf preview
+
+	$(document).ready(function() {
+		$("#mybutton").hover(function() {
+			$("#myframe").fadeIn();
+		});
+
+		$("#myframe").mouseleave(function() {
+			$("#myframe").fadeOut();
+		});
+
+		$(".close").click(function() {
+			$("#myframe").fadeOut();
+		});
+	});
+
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})

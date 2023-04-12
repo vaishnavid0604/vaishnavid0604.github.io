@@ -11378,3 +11378,32 @@ to {
 
 
   /*============ end =============*/
+
+/*============ resume preview  =============*/
+ #myframe { 
+ display:none; 
+ position:fixed; 
+ top:50%; 
+ left:50%;
+ transform: translate(-50%, -50%);
+ z-index:9999; border:1px solid #ccc;
+ background-color:#fff; 
+ padding:20px; width:80%; 
+ height:80%; 
+ }
+
+	.close {
+		position:absolute;
+		top:1px;
+		right:3px;
+		font-size:28px;
+		font-weight:bold;
+		color:#f00;
+		cursor:pointer;
+	}
+
+	
+	  /*============ end =============*/
+.tooltip-inner {
+  background-color: #ffa500; /* Change this to your desired color */
+}
